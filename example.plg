@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: example - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/example.res" /d "_DEBUG" /d "_AFXDLL" "D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\example.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/example.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\example.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\exampleDoc.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\exampleView.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glCamera.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glControl.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glFont.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glMaterial.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glMath.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glParticle.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glParticleCtrl.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glPicLoad.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\glShape.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\MainFrm.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\myOpenGL.cpp"
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\OpenGL.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/example.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\工作\上课\2014年\图形学24例子\8.5 粒子雪\example\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP65.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/example.pdb" /debug /machine:I386 /out:"Debug/example.exe" /pdbtype:sept 
+".\Debug\example.obj"
+".\Debug\exampleDoc.obj"
+".\Debug\exampleView.obj"
+".\Debug\glCamera.obj"
+".\Debug\glControl.obj"
+".\Debug\glFont.obj"
+".\Debug\glMaterial.obj"
+".\Debug\glMath.obj"
+".\Debug\glParticle.obj"
+".\Debug\glParticleCtrl.obj"
+".\Debug\glPicLoad.obj"
+".\Debug\glShape.obj"
+".\Debug\MainFrm.obj"
+".\Debug\myOpenGL.obj"
+".\Debug\OpenGL.obj"
+".\Debug\StdAfx.obj"
+".\Debug\example.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP66.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+example.cpp
+exampleDoc.cpp
+exampleView.cpp
+glCamera.cpp
+glControl.cpp
+glFont.cpp
+glMaterial.cpp
+glMath.cpp
+glParticle.cpp
+glParticleCtrl.cpp
+glPicLoad.cpp
+glShape.cpp
+MainFrm.cpp
+myOpenGL.cpp
+OpenGL.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /o"Debug/example.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\example.sbr"
+".\Debug\exampleDoc.sbr"
+".\Debug\exampleView.sbr"
+".\Debug\glCamera.sbr"
+".\Debug\glControl.sbr"
+".\Debug\glFont.sbr"
+".\Debug\glMaterial.sbr"
+".\Debug\glMath.sbr"
+".\Debug\glParticle.sbr"
+".\Debug\glParticleCtrl.sbr"
+".\Debug\glPicLoad.sbr"
+".\Debug\glShape.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\myOpenGL.sbr"
+".\Debug\OpenGL.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP68.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69.bat" with contents
+[
+@echo off
+copy debug\*.exe lib
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP69.bat"
+
+debug\example.exe
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+example.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
